@@ -2,7 +2,7 @@
 re='^[0-9]+$'
 
 incorrect_answer=true
-number_of_files=$(ls -1 | wc -l)
+number_of_files=$(ls -l | wc -l)
 
 # Ask to the user and read his response
 function makequestion {
